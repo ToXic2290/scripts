@@ -64,7 +64,7 @@ def valentine(app, message):
 @app.on_message(filters.command("help", prefixes="-") & filters.me)
 def valentine(app, message):
 	app.send_message(message.chat.id,f'''
-📙<b>   Команды:</b> \n<b> -help - показать данное меню</b> \n<b> .like - арт "лайк"</b> \n<b> .dislike - арт дизлайк</b> \n<b>     Текста песен:</b> \n<b> .showdown</b> \n<b> .twitch</b> \n<b> .battle - (гавно, залупа, пенис и тд.)</b> \n<b> .zoo</b> \n<b> .landisi</b> \n<b> .kaif</b> \n<b> .shadowfield</b> \n <b> .astralstep</b>
+📙<b>   Команды:</b> \n<b> -help - показать данное меню</b> \n<b> -info - Информация о скрипте </b> \n<b> .like - арт "лайк"</b> \n<b> .dislike - арт дизлайк</b> \n<b>     Текста песен:</b> \n<b> .showdown</b> \n<b> .twitch</b> \n<b> .battle - (гавно, залупа, пенис и тд.)</b> \n<b> .zoo</b> \n<b> .landisi</b> \n<b> .kaif</b> \n<b> .shadowfield</b> \n <b> .astralstep</b>
 
 
 
